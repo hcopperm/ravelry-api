@@ -19,6 +19,11 @@ GEM
     pry-byebug (3.7.0)
       byebug (~> 11.0)
       pry (~> 0.10)
+    pry-nav (0.3.0)
+      pry (>= 0.9.10, < 0.13.0)
+    pry-remote (0.1.8)
+      pry (~> 0.9)
+      slop (~> 3.0)
     rake (10.5.0)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
@@ -33,6 +38,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.0)
+    slop (3.6.0)
 
 PLATFORMS
   ruby
@@ -42,6 +48,8 @@ DEPENDENCIES
   faraday
   pry
   pry-byebug
+  pry-nav
+  pry-remote
   rake (~> 10.0)
   ravelry_api!
   rspec (~> 3.0)
