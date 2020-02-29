@@ -24,7 +24,7 @@ GEM
     pry-remote (0.1.8)
       pry (~> 0.9)
       slop (~> 3.0)
-    rake (10.5.0)
+    rake (13.0.1)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -50,7 +50,7 @@ DEPENDENCIES
   pry-byebug
   pry-nav
   pry-remote
-  rake (~> 10.0)
+  rake (~> 13.0)
   ravelry_api!
   rspec (~> 3.0)
 
